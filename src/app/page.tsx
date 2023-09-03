@@ -1,11 +1,15 @@
-import styles from "./styles.module.css";
+import About from "./components/About";
+import Greeting from "./components/Greeting";
+import PersonalProject from "./components/PersonalProject";
+import ToolStack from "./components/ToolStack";
 
 export default function Home() {
   return (
     <main>
-      <div className="flex h-96 w-full items-center justify-center bg-slate-800 ">
-        Hello
-      </div>
+      <Greeting />
+      <ToolStack />
+      <PersonalProject />
+      <About />
     </main>
   );
 }
