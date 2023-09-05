@@ -51,7 +51,7 @@ export default function About() {
             I&apos;m always open to new challenges and opportunities to work on
             exciting web projects. If you are interested in collaborating with
             me or hiring me for your next project, please feel free to contact
-            me via email or LinkedIn. I look forward to hearing from you soon!😊
+            me via email, Line or LinkedIn. I look forward to hearing from you soon!😊
           </p>
         </div>
       </div>
