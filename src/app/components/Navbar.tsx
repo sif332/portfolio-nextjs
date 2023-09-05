@@ -86,7 +86,7 @@ export default function Navbar() {
       </div>
       {showMenu && (
         <div
-          className="absolute top-0 mt-20 flex w-full flex-col items-center bg-white lg:hidden"
+          className="absolute top-0 z-10 mt-20 flex w-full flex-col items-center bg-white lg:hidden"
           onClick={() => {
             setMenu(false);
           }}
