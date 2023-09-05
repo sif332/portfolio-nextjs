@@ -7,6 +7,7 @@ import MenuIcon from "../../assets/icons/MenuIcon";
 import { useState } from "react";
 import CloseIcon from "../../assets/icons/CloseIcon";
 import { useRouter, usePathname } from "next/navigation";
+import style from "../styles.module.css";
 
 export default function Navbar() {
   const [showMenu, setMenu] = useState(false);
@@ -86,7 +87,7 @@ export default function Navbar() {
       </div>
       {showMenu && (
         <div
-          className="absolute top-0 z-10 mt-20 flex w-full flex-col items-center bg-white lg:hidden"
+          className={`absolute top-0 z-10 mt-20 flex w-full flex-col items-center bg-white lg:hidden ${style.slideinfwdcenter2}`}
           onClick={() => {
             setMenu(false);
           }}

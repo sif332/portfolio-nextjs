@@ -5,10 +5,10 @@ export default function About() {
   return (
     <div className="flex w-full items-center justify-center" id="about">
       {/* contral div to have max width 1400 when on full desktop mode*/}
-      <div className="my-12 flex h-fit w-full flex-col-reverse justify-between gap-8 px-4 lg:max-w-[1200px] lg:flex-row">
+      <div className="mb-12 mt-6 flex h-fit w-full flex-col-reverse justify-between gap-8 px-4 lg:max-w-[1200px] lg:flex-row">
         <div className="relative flex h-[500px] w-full justify-center lg:h-auto">
           <Image
-            className="rounded-md"
+            className="rounded-md drop-shadow-2xl"
             src={FullstackImage}
             fill={true}
             alt="fullstack"

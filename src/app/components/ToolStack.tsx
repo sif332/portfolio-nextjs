@@ -4,7 +4,10 @@ import { toolStacks } from "../../data/toolStacks";
 export default function ToolStack() {
   return (
     // scaffold for this component
-    <div className="flex w-full items-center justify-center" id="toolstack">
+    <div
+      className="flex w-full items-center justify-center bg-slate-50"
+      id="toolstack"
+    >
       {/* contral div to have max width 1400 when on full desktop mode*/}
       <div className="mx-4 my-12 flex w-full flex-col items-center justify-between gap-8 lg:max-w-[1200px] lg:flex-row lg:gap-24">
         {/* control text */}

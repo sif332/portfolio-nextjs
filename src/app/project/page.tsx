@@ -15,7 +15,7 @@ export default function Works() {
               const { src, alt, title, name, mdName } = project;
               return (
                 <Link key={index} href={`project/${mdName}`}>
-                  <div className="group cursor-pointer overflow-hidden rounded-md">
+                  <div className="group cursor-pointer overflow-hidden rounded-md drop-shadow-2xl	">
                     <div className="relative h-[300px]">
                       <Image
                         className="transition-transform duration-500 ease-out group-hover:scale-110"
