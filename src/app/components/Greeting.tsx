@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import ProfilePic from "../../assets/profilePic.jpg";
 import LinkedinIcon from "../../assets/icons/LinkedinIcon";
 import GithubIcon from "../../assets/icons/GithubIcon";
+import styles from "../styles.module.css";
 
 export default function Greeting() {
   return (
@@ -12,17 +12,21 @@ export default function Greeting() {
       <div className="mx-5 my-8 flex w-full flex-col items-center gap-5 lg:max-w-[1400px] lg:flex-row lg:justify-between">
         {/* control text content */}
         <div className="flex max-w-xl flex-col gap-4">
-          <p>👋 Greeting</p>
-          <h1 className="font-bold leading-tight lg:text-4xl">
+          <p className={`${styles.slideinblurredleft}`}>👋 Greeting</p>
+          <h1
+            className={`font-bold leading-tight lg:text-4xl ${styles.slideinblurredright}`}
+          >
             I’m Settawut K. <br /> a Full-Stack Developer
           </h1>
-          <p className="font-light">
+          <p className={`font-light ${styles.fadein}`}>
             I enjoy staying up-to-date with the latest industry trends and
             exploring new technologies and frameworks to enhance my projects.
           </p>
         </div>
         {/* control image */}
-        <div className="flex max-w-[400px] flex-col gap-4 lg:max-w-[550px]">
+        <div
+          className={`flex max-w-[400px] flex-col gap-4 lg:max-w-[550px] ${styles.slideinfwdcenter}`}
+        >
           <Image
             className="rounded-md"
             src="https://i.imgur.com/KZxrzX6.png"
